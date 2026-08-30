@@ -53,11 +53,18 @@
 # print(x + y)
 # error
 
-# y=input("enter the letter that u want to count: ")
+# x = 5.7
+# y = "John"
+# print(x + y)
+# error
+
+
+
+# Y=input("enter the letter that you want to count: ")
 # s = "abhinav"
-# c=0
+# c = 0
 # for x in range(0,7):
-#     if(y==s[x]):
+#     if(Y==s[x]):
 #         c+=1
 #     else:
 #         continue
