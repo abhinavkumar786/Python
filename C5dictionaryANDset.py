@@ -95,6 +95,22 @@ print(a-d)
 # ❌ Immutable: frozenset
 # set is mutable, but frozenset is its immutable version.
 
+marks = {
+    "Math": 85,
+    "English": 78,
+    "Science": 92,
+    "Computer": 95
+}
+
+for subject, mark in marks.items():
+    print(subject, ":", mark)
+
+total = sum(marks.values())
+average = total / len(marks)
+
+print("Total marks:", total)
+print("Average marks:", average)
+
 
 
 
