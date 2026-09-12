@@ -125,3 +125,18 @@
 # #         l[x-i-1]=a
 # print(l)
 
+numbers = (25, 10, 45, 5, 30, 15)
+
+maximum = numbers[0]
+minimum = numbers[0]
+
+for num in numbers:
+    if num > maximum:
+        maximum = num
+
+    if num < minimum:
+        minimum = num
+
+print("Tuple:", numbers)
+print("Maximum:", maximum)
+print("Minimum:", minimum)
