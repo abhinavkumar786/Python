@@ -46,12 +46,25 @@
 # n = int(input("enter any number: "))
 # print(f"the factorial of the {n} is: {factorial(n)}")
 
-def factorial(n):
-    if n == 0 or n == 1:
-        return 1
-    return n * factorial(n - 1)
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     return n * factorial(n - 1)
 
 
-n = int(input("Enter a number: "))
+# n = int(input("Enter a number: "))
 
-print("Factorial =", factorial(n))
+# print("Factorial =", factorial(n))
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+n = int(input("Enter number of terms: "))
+
+print("Fibonacci Series:")
+
+for i in range(n):
+    print(fibonacci(i), end=" ")
