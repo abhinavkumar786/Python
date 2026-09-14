@@ -46,15 +46,12 @@
 # n = int(input("enter any number: "))
 # print(f"the factorial of the {n} is: {factorial(n)}")
 
-def fibo(n):
-    pass
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
 
 
+n = int(input("Enter a number: "))
 
-
-
-
-
-n=int(input("enter no of terms: "))
-fibo()
- 
+print("Factorial =", factorial(n))
