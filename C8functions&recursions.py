@@ -70,12 +70,23 @@
 #     print(fibonacci(i), end=" ")
 
 
-def sum_natural(n):
-    if n == 0:
-        return 0
-    return n + sum_natural(n - 1)
+# def sum_natural(n):
+#     if n == 0:
+#         return 0
+#     return n + sum_natural(n - 1)
 
 
-n = int(input("Enter a number: "))
+# n = int(input("Enter a number: "))
 
-print("Sum =", sum_natural(n))
+# print("Sum =", sum_natural(n))
+
+def power(a, b):
+    if b == 0:
+        return 1
+    return a * power(a, b - 1)
+
+
+a = int(input("Enter the base: "))
+b = int(input("Enter the exponent: "))
+
+print("Result =", power(a, b))
