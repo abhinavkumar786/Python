@@ -56,15 +56,26 @@
 
 # print("Factorial =", factorial(n))
 
-def fibonacci(n):
-    if n <= 1:
-        return n
-    return fibonacci(n - 1) + fibonacci(n - 2)
+# def fibonacci(n):
+#     if n <= 1:
+#         return n
+#     return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-n = int(input("Enter number of terms: "))
+# n = int(input("Enter number of terms: "))
 
-print("Fibonacci Series:")
+# print("Fibonacci Series:")
 
-for i in range(n):
-    print(fibonacci(i), end=" ")
+# for i in range(n):
+#     print(fibonacci(i), end=" ")
+
+
+def sum_natural(n):
+    if n == 0:
+        return 0
+    return n + sum_natural(n - 1)
+
+
+n = int(input("Enter a number: "))
+
+print("Sum =", sum_natural(n))
