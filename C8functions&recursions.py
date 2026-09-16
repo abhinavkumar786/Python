@@ -90,3 +90,9 @@ a = int(input("Enter the base: "))
 b = int(input("Enter the exponent: "))
 
 print("Result =", power(a, b))
+
+# def function(n):
+#     if base_condition:
+#         return value
+
+#     return something + function(smaller_n)
