@@ -16,8 +16,8 @@
 
 
 # # indentation matters!!!!!
-l=[1,2,3,4]
-x=print(l[2])
+# l=[1,2,3,4]
+# x=print(l[2])
 # print(x): returns none
 
 
