@@ -93,3 +93,12 @@ print(t)
 
 # print(5.2+2)
 # 7.2
+
+
+a = 4
+b = 3
+c = 2
+
+result = a + b * c ** 2 / 2 - 1
+
+print(result)
