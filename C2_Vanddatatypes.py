@@ -95,10 +95,18 @@ print(t)
 # 7.2
 
 
-a = 4
-b = 3
-c = 2
+# a = 4
+# b = 3
+# c = 2
 
-result = a + b * c ** 2 / 2 - 1
+# result = a + b * c ** 2 / 2 - 1
+
+# print(result)
+
+x = 10
+y = 3
+
+result = x / y + x // y * 2 - x % y
 
 print(result)
+print(type(result))
