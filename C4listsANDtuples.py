@@ -140,3 +140,23 @@ for num in numbers:
 print("Tuple:", numbers)
 print("Maximum:", maximum)
 print("Minimum:", minimum)
+
+# Student Marks Analyzer
+
+marks = []
+
+for i in range(5):
+    mark = float(input(f"Enter marks for subject {i + 1}: "))
+    marks.append(mark)
+
+total = sum(marks)
+average = total / len(marks)
+highest = max(marks)
+lowest = min(marks)
+
+print("\n--- Result ---")
+print("Marks:", marks)
+print("Total Marks:", total)
+print("Average:", average)
+print("Highest Marks:", highest)
+print("Lowest Marks:", lowest)
