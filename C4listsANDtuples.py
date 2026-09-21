@@ -145,18 +145,18 @@ print("Minimum:", minimum)
 
 marks = []
 
-for i in range(5):
-    mark = float(input(f"Enter marks for subject {i + 1}: "))
-    marks.append(mark)
+# for i in range(5):
+#     mark = float(input(f"Enter marks for subject {i + 1}: "))
+#     marks.append(mark)
 
-total = sum(marks)
-average = total / len(marks)
-highest = max(marks)
-lowest = min(marks)
+# total = sum(marks)
+# average = total / len(marks)
+# highest = max(marks)
+# lowest = min(marks)
 
-print("\n--- Result ---")
-print("Marks:", marks)
-print("Total Marks:", total)
-print("Average:", average)
-print("Highest Marks:", highest)
-print("Lowest Marks:", lowest)
+# print("\n--- Result ---")
+# print("Marks:", marks)
+# print("Total Marks:", total)
+# print("Average:", average)
+# print("Highest Marks:", highest)
+# print("Lowest Marks:", lowest)
